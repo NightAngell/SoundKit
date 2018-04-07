@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script> 
+    <script src="js/matchMedia.js"></script>
+</head>
+<body>
+    <audio src="./sounds/boom.wav" id="boom"></audio>
+    <audio src="./sounds/clap.wav" id="clap"></audio>
+    <audio src="./sounds/hihat.wav" id="hihat"></audio>
+    <audio src="./sounds/kick.wav" id="kick"></audio>
+    <audio src="./sounds/openhat.wav" id="openhat"></audio>
+    <audio src="./sounds/ride.wav" id="ride"></audio>
+    <audio src="./sounds/snare.wav" id="snare"></audio>
+    <audio src="./sounds/tink.wav" id="tink"></audio>
+    <audio src="./sounds/tom.wav" id="tom"></audio> 
+    <div class="container-virtual-buttons text-center">
+        <button class="btn btn-custom col-3" data-key="7">7-Boom</button>
+        <button class="btn btn-custom col-3" data-key="8">8-Clap</button>
+        <button class="btn btn-custom col-3" data-key="9">9-Hihat</button>
+        <button class="btn btn-custom col-3" data-key="4">4-Kick</button>
+        <button class="btn btn-custom col-3" data-key="5">5-Openhat</button>
+        <button class="btn btn-custom col-3" data-key="6">6-Ride</button>
+        <button class="btn btn-custom col-3" data-key="1">1-Snare</button>
+        <button class="btn btn-custom col-3" data-key="2">2-Tink</button>
+        <button class="btn btn-custom col-3" data-key="3">3-Tom</button>
+    </div>
+    <div class="container container-custom text-center">
+        <!--Track1-->
+        <div class="row">
+            <button class="record_track-button col btn btn-custom btn-custom-primary">Start/Stop Record track1</button>
+            <button class="play-track-button col btn btn-custom btn-custom-success">Play track1</button>
+            <button class="stop_button col  btn btn-custom btn-custom-danger">Stop track1</button>  
+            <button class="clear-track-button col btn btn-custom btn-custom-warning">Clear track1</button>
+            <button class="choose_to_play_track_button col btn btn-custom btn-custom-purple">Choose track1</button>     
+        </div>
+         <!--Track2-->
+        <div class="row">
+            <button class="record_track-button col btn btn-custom btn-custom-primary">Start/Stop Record track2</button>
+            <button class="play-track-button col btn btn-custom btn-custom-success">Play track2</button>
+            <button class="stop_button col btn btn-custom btn-custom-danger">Stop track2</button>  
+            <button class="clear-track-button col btn btn-custom btn-custom-warning">Clear track2</button>
+            <button class="choose_to_play_track_button col btn btn-custom btn-custom-purple">Choose track2</button> 
+        </div>
+        <!--Track3-->
+        <div class="row">
+            <button class="record_track-button col btn btn-custom btn-custom-primary">Start/Stop Record track3</button>
+            <button class="play-track-button col btn btn-custom btn-custom-success">Play track3</button>
+            <button class="stop_button col  btn btn-custom btn-custom-danger">Stop track3</button>   
+            <button class="clear-track-button col btn btn-custom btn-custom-warning">Clear track3</button>
+            <button class="choose_to_play_track_button col btn btn-custom btn-custom-purple">Choose track3</button> 
+        </div>
+        <!--Track4-->
+        <div class="row">
+            <button class="record_track-button col btn btn-custom btn-custom-primary">Start/Stop Record track4</button>
+            <button class="play-track-button col btn btn-custom btn-custom-success">Play track4</button>
+            <button class="stop_button col  btn btn-custom btn-custom-danger">Stop track4</button> 
+            <button class="clear-track-button col btn btn-custom btn-custom-warning">Clear track4</button>
+            <button class="choose_to_play_track_button col btn btn-custom btn-custom-purple">Choose track4</button>  
+        </div>
+        <!--All and choosed tracks-->
+        <div class="row">
+            <button class="play-tracks-all-button col btn btn-custom btn-custom-dark">Play All</button>
+            <button class="play-choosed-tracks-button col btn btn-custom btn-custom-dark">Play Choosen Tracks</button>
+            <button class="stop-all col btn btn-custom btn-custom-dark">Stop All</button>
+        </div>
+    </div>
+    <div class="container container-custom text-custom-size">
+        * When you click <span class="text-custom-primary">record button</span> track will be automaticaly <span class="text-custom-warning">cleared</span>.
+        <br>
+        * Created by Mateusz Soboń.
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    background: URL("../images/bg/bg.jpeg") fixed no-repeat;
+    background-size: cover;
+}
+.container-custom{
+    margin-top: 20px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.9);
+    color: rgb(197, 195, 195);
+}
+.row{
+    padding: 5px;
+    margin-bottom : 10px;
+}
+.btn-custom{
+    background: none;
+    border-radius: 0;
+    margin: 5px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 19px;
+}
+.btn:hover{
+    color: white;
+    transition: 0s; 
+}
+.btn-custom-primary{
+    color: #007bff;
+    border: 3px solid #007bff;
+}
+.btn-custom-primary:hover{
+    background: #007bff;
+}
+.btn-custom-success{
+    color: #28a745;
+    border: 3px solid #28a745;
+}
+.btn-custom-success:hover{
+    background: #28a745;
+}
+.btn-custom-danger{
+    color: #dc3545;
+    border: 3px solid #dc3545;
+}
+.btn-custom-danger:hover{
+    background: #dc3545;
+}
+.btn-custom-warning{
+    color: #e2a201;
+    border: 3px solid #e2a201;
+}
+.btn-custom-warning:hover{
+    background: #e2a201;
+}
+.btn-custom-warning:active{
+    background: none;
+    box-shadow: 0 0 70px #e2a201 inset;
+}
+.btn-custom-purple{
+    color: #a589d3;
+    border: 3px solid #a589d3;
+}
+.btn-custom-purple:hover{
+    background: #a589d3;
+}
+.btn-custom-dark{
+    background: #464646;
+    color: rgb(197, 195, 195);
+    border: 3px solid #464646;
+}
+.btn-custom-dark:hover{
+    color: #868686;
+    background: none;
+}
+.container-virtual-buttons{
+    margin-top: 10px;
+}
+.container-virtual-buttons button{
+    overflow: hidden;
+    text-overflow: ellipsis;
+   color: white;
+   font-size: 22px; 
+   border: 3px solid black;
+   background: rgba(0, 0, 0, 0.7);
+}
+.container-virtual-buttons button:hover{
+    color: rgb(172, 172, 172);
+}
+@media screen and (max-width: 991px){
+    .container-virtual-buttons button{
+        font-size: 15px;
+        margin-bottom: 1px;
+        padding: 30px 0;
+    }
+}
+.text-custom-size{
+    font-size: 17px;
+}
+.text-custom-purple{
+    color: #a589d3;
+}
+.text-custom-primary{
+    color: #007bff;
+}
+.text-custom-warning{
+    color: #e2a201;
+}
